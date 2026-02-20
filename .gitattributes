@@ -1,0 +1,31 @@
+# auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# exceptions using CRLF normalization
+LICENSE eol=crlf
+.github/SECURITY.md eol=crlf
+.github/CODE_OF_CONDUCT.md eol=crlf
+.github/CONTRIBUTING.md eol=crlf
+
+# exclude from generated archives
+CHANGELOG.md export-ignore
+
+# file types to remove from language stats
+*.css linguist-vendored
+*.html linguist-vendored
+
+# binary file types.
+*.webp binary
+*.png binary
+*.jpg binary
+*.glb binary
+*.fbx binary
+*.wasm binary
+*.basis binary
+*.bin binary
+*.dds binary
+*.drc binary
+*.mp3 binary
+*.mp4 binary
+*.gz binary
+*.ktx2 binary

@@ -1,0 +1,40 @@
+# system files
+.DS_Store
+
+# dotenv environment variable files
+.env
+
+# logs
+*.log
+npm-debug.log*
+
+# dependency directories
+node_modules
+
+# npm cache directory
+.npm
+
+# typescript cache
+*.tsbuildinfo
+
+# eslint cache
+.eslintcache
+
+# test coverage
+coverage
+
+# distribution directory
+dist
+
+# temp folder
+temp
+
+# working notes
+notes
+
+# esbuild meta
+meta
+
+# ignore non-npm lockfiles
+pnpm-lock.yaml
+yarn.lock
