@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "sideEffects": false,
+  "name": "enginelayer",
+  "version": "0.0.2",
+  "description": "Network collaboration layer for the Web",
+  "module": "./dist/enginelayer.esm-bundler.js",
+  "exports": "./dist/enginelayer.esm-bundler.js",
+  "files": [
+    "dist"
+  ],
+  "buildOptions": {
+    "formats": [
+      "esm-bundler"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/enginelayer.git",
+    "directory": "packages/enginelayer"
+  },
+  "keywords": [
+    "enginelayer",
+    "simulations"
+  ],
+  "author": "Ed Preston",
+  "license": "MIT",
+  "bugs": "https://github.com/epreston/enginelayer/issues",
+  "homepage": "https://github.com/epreston/enginelayer/blob/main/packages/enginelayer#readme"
+}
