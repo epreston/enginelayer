@@ -1,7 +1,12 @@
 # EngineLayer
 
-[![CI][ci-badge]][ci-url]
+> 🚧 work in progress...
 
+3D Graphics Simulations for the Web
+
+[![NPM version][npm-badge]][npm-url]
+[![License][license-badge]][license-url]
+[![CI][ci-badge]][ci-url]
 
 ## Quick Start
 
@@ -26,18 +31,20 @@ npm run dev
 
 ## Tools
 
-| Tool     | Reference           |
-| -------- | ------------------- |
-| Node.js  | https://nodejs.org  |
-| Vite     | https://vitejs.dev  |
-| ESLint   | https://eslint.org  |
-| Prettier | https://prettier.io |
+| Tool         | Reference                |
+| ------------ | ------------------------ |
+| Node.js      | https://nodejs.org       |
+| Vite         | https://vitejs.dev       |
+| ESLint       | https://eslint.org       |
+| Prettier     | https://prettier.io      |
+| EditorConfig | https://editorconfig.org |
 
 ## References
 
 | Reference           | Website                            |
 | ------------------- | ---------------------------------- |
 | Can I Use           | https://caniuse.com                |
+| Browserslist        | https://browsersl.ist              |
 | WebGL2              | https://www.khronos.org/webgl/     |
 | glTF                | https://www.khronos.org/gltf/      |
 | analyze             | https://esbuild.github.io/analyze/ |
@@ -50,3 +57,7 @@ This project is released under the [MIT License](LICENSE).
 
 [ci-badge]: https://github.com/epreston/enginelayer/actions/workflows/ci.yml/badge.svg
 [ci-url]: https://github.com/epreston/enginelayer/actions
+[npm-badge]: https://img.shields.io/npm/v/enginelayer
+[npm-url]: https://www.npmjs.com/package/enginelayer
+[license-badge]: https://img.shields.io/npm/l/enginelayer.svg?cacheSeconds=2592000
+[license-url]: LICENSE
