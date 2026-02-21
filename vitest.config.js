@@ -12,7 +12,7 @@ const testConfig = defineConfig({
     // globals: true,
     // includeSource: ['src/**/*.{js,ts}'], // enable inline tests
     pool: 'forks',
-    setupFiles: ['./scripts/setup-vitest.js'],
+    // setupFiles: ['./scripts/setup-vitest.js'],
     sequence: {
       hooks: 'list'
     },
