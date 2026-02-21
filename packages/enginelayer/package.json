@@ -2,8 +2,8 @@
   "type": "module",
   "sideEffects": false,
   "name": "enginelayer",
-  "version": "0.0.2",
-  "description": "Network collaboration layer for the Web",
+  "version": "0.0.3",
+  "description": "3D Graphics Simulations for the Web",
   "module": "./dist/enginelayer.esm-bundler.js",
   "exports": "./dist/enginelayer.esm-bundler.js",
   "files": [
