@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite';
+import { entries } from './scripts/aliases.js';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   appType: 'mpa', // disable history fallback
+
   build: {
     // minify: false,
     assetsInlineLimit: 0,
@@ -17,5 +19,8 @@ export default defineConfig({
       'Cross-Origin-Embedder-Policy': 'require-corp',
       'Cross-Origin-Opener-Policy': 'same-origin'
     }
+  },
+  resolve: {
+    alias: entries
   }
 });
