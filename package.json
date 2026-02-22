@@ -21,8 +21,8 @@
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "lint": "eslint .",
-    "format": "prettier --check --cache \"**/*.js\"",
-    "format:fix": "prettier --write --cache \"**/*.js\"",
+    "format": "prettier --check \"**/*.js\"",
+    "format:fix": "prettier --write \"**/*.js\"",
     "test": "vitest run",
     "test:watch": "vitest"
   },
