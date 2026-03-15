@@ -27,10 +27,10 @@
     "test:watch": "vitest"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^2.3.0",
-    "@epreston/prettier-config": "^2.1.0",
-    "@epreston/tsconfig": "^1.2.1",
-    "eslint": "^10.0.1",
+    "@epreston/eslint-config": "^2.4.2",
+    "@epreston/prettier-config": "^2.1.1",
+    "@epreston/tsconfig": "^1.2.2",
+    "eslint": "^10.0.2",
     "prettier": "^3.8.1",
     "vite": "^7.3.1",
     "vitest": "^4.0.18"
