@@ -3,7 +3,7 @@
 
 version: 2
 updates:
-  # maintain dependencies for GitHub Actions
+  # gitHub actions dependencies
   - package-ecosystem: github-actions
     directory: /
     schedule:
@@ -14,7 +14,7 @@ updates:
           - minor
           - patch
 
-  # maintain dependencies for npm
+  # npm dependencies
   - package-ecosystem: npm
     directory: /
     schedule:
